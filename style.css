@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+div {
+    height: 600px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+
+.text1 {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div1 {
+
+}
+
+.div1:hover {
+    background-image: url(img/img1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2:hover {
+    background-image: url(img/img2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div3:hover {
+    background-image: url(img/img3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div4:hover {
+    background-image: url(img/img4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div5:hover {background-image: url(img/img5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div:hover {
+    color: white;
+
+}
+
+
