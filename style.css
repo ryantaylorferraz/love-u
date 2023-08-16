@@ -21,6 +21,7 @@ div {
     margin: 0 auto;
 
     cursor: pointer;
+    opacity: 0;
 }
 
 .text1 {
@@ -30,16 +31,15 @@ div {
     border-radius: 5px;
 }
 
-div1 {
-
-}
 
 .div1:hover {
     background-image: url(img/img1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: background-image .3s ease-out;
+    transition: background-image .5s ease-out;
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 
 .div2:hover {
@@ -48,6 +48,8 @@ div1 {
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 .div3:hover {
     background-image: url(img/img3.jpg);
@@ -55,6 +57,8 @@ div1 {
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 .div4:hover {
     background-image: url(img/img4.jpg);
@@ -62,6 +66,8 @@ div1 {
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 
 .div5:hover {background-image: url(img/img5.jpg);
@@ -69,11 +75,13 @@ div1 {
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 
 div:hover p {
     color: white;
-    transition: 0.7s;
+    transition: 0.9s;
 
 }
 
