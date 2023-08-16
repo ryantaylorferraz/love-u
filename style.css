@@ -39,6 +39,7 @@ div1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background-image .3s ease-out;
 }
 
 .div2:hover {
@@ -46,28 +47,33 @@ div1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s;
 }
 .div3:hover {
     background-image: url(img/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s;
 }
 .div4:hover {
     background-image: url(img/img4.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s;
 }
 
 .div5:hover {background-image: url(img/img5.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s;
 }
 
-div:hover {
+div:hover p {
     color: white;
+    transition: 0.7s;
 
 }
 
